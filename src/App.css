@@ -1,0 +1,24 @@
+.App {
+  font-size: 15px;
+  display: grid;
+  grid-template-areas: 
+  "h"
+  "m"
+  "f";
+}
+
+
+.test {
+  grid-area: m;
+  color: red;
+  font-size: 20px;
+}
+
+.test_image {
+  background: url("https://www.myfitness.ee/wp-content/uploads/2016/05/nature-wallpaper-07-1200x750.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
